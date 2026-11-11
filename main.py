@@ -18,7 +18,7 @@ print("součet:", prvni+druhy)
 print("rozdíl:", prvni-druhy)
 print("součin:", prvni*druhy)
 """
-
+"""
 vek = int(input("Kolik ti je let?"))
 obcan = input("Jseš občanem ČR?")
 
@@ -26,7 +26,7 @@ if vek >= 18 and obcan == "ano":
     print("Můžeš volit!")
 else:
     print("Nemůžeš volit!")
-
+"""
 """
 if vek >= 18:
     if obcan == "ano":
@@ -36,3 +36,38 @@ if vek >= 18:
 else:
     print("Nemůžeš volit!")
 """
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+vek = int(input("Kolik ti je let?"))
+obcan = input("Jsi občan ČR?")
+
+if vek >= 18 and obcan == "ano":
+    print("Můžeš volit!")
+else:
+    print("Nemůžeš volit!")
