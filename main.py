@@ -36,6 +36,7 @@ if vek >= 18:
 else:
     print("Nemůžeš volit!")
 """
-
+"""
 for _ in range(100):
     print("Ahoj")
+"""
