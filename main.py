@@ -36,5 +36,24 @@ if vek >= 18:
 else:
     print("Nemůžeš volit!")
 """
+"""
 for _ in range(100):
     print("Ahoj")
+"""
+
+
+
+
+
+
+"""
+text = input("Zadej text: ")
+print(f"Velkými písmeny: {text.upper()}")
+print(f"Malými písmeny: {text.lower()}")
+print(f"Počet znak: {len(text)}")
+print(f"První znak: {text[0]}")
+print(f"Poslední znak: {text[-1]}")
+print(f"Text pozpátku: {text[::-1]}")
+"""
+
+print()
