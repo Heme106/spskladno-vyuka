@@ -57,12 +57,9 @@ print(f"Text pozpátku: {text[::-1]}")
 """
 """
 seznam = ["Matrix", "Logan"]
-prvni = input("Zadej název filmu: ")
-druhy = input("Zadej název filmu: ")
-treti = input("Zadej název filmu: ")
-seznam.append(prvni)
-seznam.append(druhy)
-seznam.append(treti)
+for _ in range(3):
+    film = input("Zadej název filmu: ")
+    seznam.append(film)
 print("Tvoje oblíbené filmy jsou:")
 for film in seznam:
     print(film)
