@@ -55,5 +55,16 @@ print(f"První znak: {text[0]}")
 print(f"Poslední znak: {text[-1]}")
 print(f"Text pozpátku: {text[::-1]}")
 """
-
-print()
+"""
+seznam = ["Matrix", "Logan"]
+prvni = input("Zadej název filmu: ")
+druhy = input("Zadej název filmu: ")
+treti = input("Zadej název filmu: ")
+seznam.append(prvni)
+seznam.append(druhy)
+seznam.append(treti)
+print("Tvoje oblíbené filmy jsou:")
+for film in seznam:
+    print(film)
+print(f"V seznamu je: {len(seznam)} filmů")
+"""
